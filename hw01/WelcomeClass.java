@@ -24,5 +24,6 @@ public static void main(String[] args) {
     System.out.println(" v v v v v v v v v");
     
     System.out.println("I am from St. Louis, MO and was born in Atlanta, GA. This summer I had an internship with a large healthcare corporation.");
+    //autobiographical information
 }
 }
