@@ -2,7 +2,7 @@
 //September 5th, 2015
 //CSE 002 - Brian Chen
 
-//      second homework assignment
+//      second lab assignme
 //      javac Cyclometer.java
 //  run the program
 //      java Cyclometer//
