@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////
-//Brian Chen
+//Grace Butler
 //Hello World Java Program
 //
 //      first homework assignment
@@ -25,10 +25,5 @@ public static void main(String[] args) {
     
     System.out.println("I am from St. Louis, MO and was born in Atlanta, GA. This summer I had an internship with a large healthcare corporation.");
     //autobiographical information
-
-
-final int x = 5;
-x += 2; 
-System.out.println(+x+)-1;
 }
 }
