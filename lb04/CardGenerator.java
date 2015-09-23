@@ -75,7 +75,6 @@ switch (number){
 }
  //typeOfCard = rank && number;
  System.out.println("You have picked the "+rank+" of " +suit); 
-   	    
 }
 }
 
