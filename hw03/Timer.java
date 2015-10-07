@@ -30,6 +30,6 @@ public class Timer{
 
             int dinnerMinute = dinnerTime % 100;
 
-            System.out.println("You have" + ( dinnerHour - currentHour ) + " hours and " + ( dinnerMinute - currentMinute ) + " minutes until dinner."  ); 
+            System.out.println("You have" + ( dinnerHour- currentHour ) + " hours and " + ( dinnerMinute - currentMinute ) + " minutes until dinner."  ); 
        }
 }
