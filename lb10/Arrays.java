@@ -9,6 +9,7 @@
 
 import java.util.Scanner; //Scanner class
 
+
 public class Arrays{ //defining a class
 public static void main(String[] args) { // main method required for every Java program
 
