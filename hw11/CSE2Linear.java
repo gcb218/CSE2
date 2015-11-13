@@ -20,7 +20,7 @@ public static void printArray(int[] input){ //defining method used to print out 
    }
    
 public static void findNumber(int[] input, int number){ //defining method used to search the array of 15 strings for a number
-        int iteration = 0;
+         /* int iteration = 0;
         for(int i=0; ; i++){ //for loop
             int x = input[i];
             iteration++; //incremend
@@ -30,11 +30,33 @@ public static void findNumber(int[] input, int number){ //defining method used t
             }
             while (x > number){ //while loop
                 System.out.println(number+" was not found in the list with " +iteration+ " iterations."); //print out that number has not been found
+                break; */
+            int low = 0; //defining variables
+            int high = input.length - 1;
+            int x =1;
+           
+            
+            while(low <= high){ //while loop
+                int mid = low + (high - low) / 2;
+                if (number < input[mid]){
+                    high = mid - 1;
+                    x++;
+                } else if (number > input[mid]){
+                    low = mid + 1;
+                    x++;
+                } else if (number == input [mid]){
+                   System.out.println(number+" was found in the list with " +x+ " iterations."); //print out that number has been found
+                   break;
+                } else{
+                System.out.println(number+" was not found in the list with " +x+ " iterations."); //print out that number has not been found
                 break;
+                }
             }
             
-        }
-}
+}     
+            
+        
+
 public static void scrambled(int[] input){ //defining method
 	Random r = new Random();  // Random number generator
 	int index, tmp;
