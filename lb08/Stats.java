@@ -44,7 +44,8 @@ public class Stats{	// main method required for every Java program
                     check = false;
                 }
                 else{
-                    System.out.println("This is not greater than the 1st input. Please try again: "); //tell user that input is invalid
+                    System.out.println(ite a program called CSE2Linear.java that prompts the user to enter 15 ints for students’ final grades in CSE2. Check that the user only enters ints, and print an error message if the user enters anything other than an int.  Print a different error message for an int that is out of the range from 0-100, and finally a third error message if the int is not greater than or equal to the last int.
+                    "This is not greater than the 1st input. Please try again: "); //tell user that input is invalid
                     myScanner.next();
                 }
              }
