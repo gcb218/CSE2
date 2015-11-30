@@ -1,21 +1,38 @@
 //  define a class
 public class randomQuestions{ //  define a class
     
-
+public static int[] resize(int[] myArray, int newsize){
+    int[] x = new int[newsize];
+    if (newsize < myArray.length){
+        for (int i =0; i <newsize; i++){
+        
+        x[i] = myArray[i];
+    }
+    }if (newsize == myArray.length){
+        for (int i =0; i <newsize; i++){
+        
+        x[i] = myArray[i];
+    }    
+    
+    }if (newsize > myArray.length){
+        for (int i =0; i <newsize; i++){
+        
+        x[i] = myArray[i];
+    } for (int i = myArray.length + 1; i<newsize; i++)    {
+        x[i]=0;
+    }
+    }
+    return x;
+}
+        
+        
 
 	public static void main(String[] args) {
-    int i =4;
-    System.out.println("i: "+i);
-    for (i=4; i<5 ; ){
-        for (int j=2; j<9;j++){
-            if(j%2==0){
-                i+=j;
-                System.out.println("i: "+i);
-            }else{
-                i-=j;
-                System.out.println("i: "+i);
-            }
-        }
+	int[] x = new int[] {1,2,4,5,2,3};
+    int[] z = resize(x, 15);
+    for (int j = 0; j < z.length; j++){
+        System.out.print(z[j]+ " ");
     }
+        System.out.println();
 	}
 }

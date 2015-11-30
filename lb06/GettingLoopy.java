@@ -38,22 +38,13 @@ public class GettingLoopy{
         int max = 100;
         System.out.print("FOR LOOP:");
         // loop through the numbers one by one
-        for (int i = 10; i<max; i++) {
-            boolean isPrimeNumber = true;
+        for (random = 10; random<max; random++) {
+             if ((random%2!=0) && (random%3!=0) && (random%5!=0) && (random%7!=0)) {
+                System.out.print(" "+random+" ");}
+             }
+             
+        System.out.println();
 
-            // check to see if the number is prime
-            for (int j = 11; i > j; j++) {
-                if (i % j == 0) {
-                    isPrimeNumber = false;
-                    break; // exit the inner for loop
-                }
-            }
-            // print the number if prime
-            if (isPrimeNumber) {
-                System.out.print(i + " ");
-            }
-        }   
-        System.out.println("");
         
      
          int random1 =10; 
@@ -63,37 +54,24 @@ public class GettingLoopy{
             if ((random1%2!=0) && (random1%3!=0) && (random1%5!=0) && (random1%7!=0)) {
             System.out.print(" "+random1+" ");}
             random1++;
-        } while(random1<101);
+        } while(random1<99);
     System.out.print(random1 +  " ");
 
   //  for ( p = 5; p < 200; p++ ) {
    // String randNum =  "ツ";
    // String output = Math.random();
-    
-    int symbol  = Math.random();//add one because you want to jump between 1 and 6
+    System.out.println();
+
+    int symbol  = (int)(Math.random()*6+1);//add one because you want to jump between 1 and 6
     for (int jumps = 5; jumps < max; jumps++)//start loop at 1 and go for max times
         {
-            System.out.print("ツ");}
-
-  int max = 100;
-        System.out.print("FOR LOOP:");
-        // loop through the numbers one by one
-        for (int i = 10; i<max; i++) {
-            boolean isPrimeNumber = true;
-
-            // check to see if the number is prime
-            for (int j = 11; i > j; j++) {
-                if (i % j == 0) {
-                    isPrimeNumber = false;
-                    break; // exit the inner for loop
-                }
-            }
-            // print the number if prime
-            if (isPrimeNumber) {
-                System.out.print(i + " ");
-            }
-        }   
-        System.out.println("");
+            System.out.print("ツ");
+            
         }
+
+      max = 100;
+       
+   }
+    
 }
 
