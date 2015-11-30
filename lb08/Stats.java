@@ -12,7 +12,7 @@ import java.util.Scanner; //Scanner class
 public class Stats{	// main method required for every Java program
 
    public static double mean(double input1, double input2, double input3, double input4, double input5) {
-        double meanValue = ((input1 + input2 + input3 + input4 + input5)/2);
+        double meanValue = ((input1 + input2 + input3 + input4 + input5)/5);
         return meanValue;
     }
     public static double median(double input1, double input2, double input3, double input4, double input5) {
